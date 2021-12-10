@@ -14,11 +14,10 @@ function Home() {
             {/* container material ui */}
             <section>
                 <img src="https://jmarcos00312.github.io/cssPortfolio/pictures/sitting-smilling.jpg" />
-                <h1>Welcome to my portfolio site, I am a software developer with experince with React, Ruby on Rails, HTML, CSS, and Python</h1>
-               {/* about me */}
+                <h1>Welcome to my portfolio site, I am a software developer with experince with React, Ruby on Rails, HTML, CSS, and Python.</h1>
+                {/* about me */}
                 <div className="aboutMe">
-                    
-            </div>
+                </div>
             </section>
             <h1>Home component</h1>
 

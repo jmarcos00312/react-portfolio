@@ -4,10 +4,28 @@ function Project() {
     return (
         <>
             <div className="react-on-rails-project">
-                <h1>Rails and Ruby projects</h1>
-                
-                <div>Sneaker display and buy</div>
-                <div>Movie List Projects</div>
+                <ul>
+                    <h1>Rails and Ruby projects</h1>
+
+                    <li>
+                        <div>
+                            <h2>Sneaker display and buy</h2>
+                            <img />
+                            <p>Worked primarily on the backend in order to do full CRUD with Ruby on Rails. This app lets users emulate the experience of buying something.
+                                
+                            </p>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h2>Movie List Projects</h2>
+                        </div>
+                    </li>
+                </ul>
+
+
                 <br />
             </div>
 

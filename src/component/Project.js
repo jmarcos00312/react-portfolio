@@ -1,8 +1,9 @@
 import React from 'react'
+import './project.scss'
 
 function Project() {
     return (
-        <>
+        <div className="project-container">
             <div className="react-on-rails-project">
                 <ul>
                     <h1>Rails and Ruby projects</h1>
@@ -53,7 +54,7 @@ function Project() {
                 </div>
 
             </div>
-        </>
+        </div>
 
     )
 }

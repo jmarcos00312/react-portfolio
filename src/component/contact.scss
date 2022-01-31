@@ -5,15 +5,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightcoral;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
 .icons {
     display: flex;
     flex-direction: row;
-    color: black;
+    color: white;
     font-size: 80px;
     cursor: pointer;
-    background-color: white;
+    gap: 400px;
 }
 
 .form {
@@ -21,12 +22,15 @@
     display: flex;
     flex-direction: column;
     width: 500px;
-    padding: 30px;
+    padding: 50px;
     margin-bottom: 40px;
+    border-radius: 20px;
 }
 
 label {
     font-size: 25px;
+    margin: 6px;
+    align-self: center;
 }
 
 .form-name-email {
@@ -34,4 +38,11 @@ label {
 }
 input .form-name-email {
     font-size: 15px;
+}
+
+.submit-form {
+    margin-top: 10px;
+    padding: 15px;
+    width: 250px;
+    align-self: center;
 }

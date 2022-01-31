@@ -1,6 +1,15 @@
 .blog_container {
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    background-color: rgb(175, 116, 37);
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    gap: 50px;
+    background-color: #af7425;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.each-blog{
+    padding: 20px;
 }

@@ -13,7 +13,7 @@ function Contact() {
                     <h1 href="https://www.linkedin.com/in/jeremiahmarcos/" target="_blank" rel="noreferrer noopener" >
                         <LinkedInIcon fontSize="xx-large" />
                     </h1>
-                    <hr />
+                    {/* <hr /> */}
                     <h1 href="https://github.com/jmarcos00312" target="_blank" rel="noreferrer noopener" >
                         <GitHubIcon fontSize="xx-large" />
                     </h1>
@@ -29,7 +29,7 @@ function Contact() {
                         <label>Message: </label>
                         <textarea id="content" name="content"
                             cols="20" rows="7" placeholder="Do you have any question?"></textarea>
-                        <button type="submit">Submit</button>
+                        <button type="submit" className="submit-form">Submit</button>
                     </div>
                 </form>
             </div>

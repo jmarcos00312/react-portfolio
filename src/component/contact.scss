@@ -1,10 +1,37 @@
 .contact-container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: lightcoral;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 80px;
+    cursor: pointer;
+    background-color: white;
 }
 
 .form {
+    background-color: lightblue;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 25px;
+}
+
+.form-name-email {
+    padding: 15px;
+}
+input .form-name-email {
+    font-size: 15px;
 }

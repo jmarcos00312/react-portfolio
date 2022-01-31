@@ -1,3 +1,6 @@
-.blog-container {
-    background-color: lightblue;
+.blog_container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(175, 116, 37);
 }

@@ -42,10 +42,10 @@ function Navbar() {
                     <Link to="/" className={classes.link}>
                         Home
                     </Link>
-                    <Link to="/Projects" className={classes.link}>
+                    <Link to="/projects" className={classes.link}>
                         Projects
                     </Link>
-                    <Link to="/Blogs" className={classes.link}>
+                    <Link to="/blogs" className={classes.link}>
                         Blogs
                     </Link>
                     <Link to="/contact" className={classes.link}>

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
+import Link from '@mui/material/Link';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
@@ -12,20 +13,82 @@ function Blogs() {
     return (
         <div className="blog_container">
             <Card sx={{ maxWidth: 345 }}>
-                <CardActionArea>
+                <CardActionArea href="https://medium.com/@jeremiahmarcos27/why-learn-javascript-7c1c1e23b03" target="_blank" rel="noreferrer noopener">
                     <CardMedia
                         component="img"
                         height="140"
-                        image="/static/images/cards/contemplative-reptile.jpg"
-                        alt="green iguana"
+                        image="https://miro.medium.com/fit/c/168/168/0*NN4KKcpdRKn7cwbi"
+                        alt="Why learn Javascript"
                     />
+                    
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Why Learn JavaScript
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            On this blog I walked through my opinion why Javascript is a great first language to learn.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
+            <Card sx={{ maxWidth: 345 }}>
+                <CardActionArea href="https://medium.com/@jeremiahmarcos27/first-two-weeks-in-react-29fd4fc80e6c" target="_blank" rel="noreferrer noopener">
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image="https://miro.medium.com/fit/c/168/168/1*dL1czrP7D0LIhUZfA8-XEA.png"
+                        alt="green iguana"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            First Two Weeks in React
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                           This blog is about my first two weeks learning react and why it's nice to know frameworks.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
+
+            <Card sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image="https://miro.medium.com/fit/c/168/168/0*NN4KKcpdRKn7cwbi"
+                        alt="green iguana"
+                    />
+                    <Link href="https://medium.com/@jeremiahmarcos27/why-learn-javascript-7c1c1e23b03" target="_blank" rel="noreferrer noopener">Read more</Link>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Chef Ruby
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            This blog is about me learning Ruby for the backend.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
+
+
+            <Card sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image="https://miro.medium.com/fit/c/168/168/0*NN4KKcpdRKn7cwbi"
+                        alt="green iguana"
+                    />
+                    <Link href="https://medium.com/@jeremiahmarcos27/why-learn-javascript-7c1c1e23b03" target="_blank" rel="noreferrer noopener">Read more</Link>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Coding Survival Guide
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            This blog is about theresources I used the most while learning languages and frameworks.
                         </Typography>
                     </CardContent>
                 </CardActionArea>

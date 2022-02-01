@@ -10,17 +10,17 @@ function Contact() {
         <div className="contact-container">
             <div>
                 <div className="icons">
-                    <h1 href="https://www.linkedin.com/in/jeremiahmarcos/" target="_blank" rel="noreferrer noopener" >
+                    <h1 onClick={() => window.open("https://www.linkedin.com/in/jeremiahmarcos/", "_blank")} >
                         <LinkedInIcon fontSize="xx-large" />
                     </h1>
                     {/* <hr /> */}
-                    <h1 href="https://github.com/jmarcos00312" target="_blank" rel="noreferrer noopener" >
+                    <h1 onClick={() => window.open("https://github.com/jmarcos00312", "_blank")}>
                         <GitHubIcon fontSize="xx-large" />
                     </h1>
                 </div>
             </div>
             <div className="contact-form">
-                <form action="https://formspree.io/f/xaylvewk" >
+                <form action="https://formspree.io/f/xaylvewk" method="post">
                     <div className="form">
                         <label>Name</label>
                         <input id="name" name="name" required type="text" placeholder="Enter name" className="form-name-email" />

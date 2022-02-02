@@ -2,10 +2,10 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom"
 import Navbar from './component/Navbar.js'
-import Home from './component/Home.js'
-import Project from './component/Project.js'
-import Blogs from './component/Blogs.js'
-import Contact from './component/Contact.js'
+import Home from './component/home/Home.js'
+import Project from './component/projects/Project.js'
+import Blogs from './component/blogs/Blogs'
+import Contact from './component/contact/Contact'
 
 
 

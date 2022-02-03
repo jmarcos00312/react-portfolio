@@ -1,6 +1,8 @@
 .project-container {
   display: flex;
   flex-direction: column;
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
 }
 .react-on-rails-project {
   display: flex;
@@ -17,9 +19,9 @@
 
 .title {
   align-self: center;
-  padding: 50px;
-  width: 300px;
-  background-color: white;
+  padding: 0 90px;
+  color: white;
+  background-image: linear-gradient(315deg, #4e6486 0%, #3F51B5 74%);
   font-size: 50px;
   border-radius: 10px;
   cursor: pointer;

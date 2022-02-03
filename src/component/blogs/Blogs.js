@@ -11,11 +11,11 @@ import './blogs.scss'
 function Blogs() {
     return (
         <div className="blog-component-container">
-                <h1 id="blog-title">Blogs</h1>
+            <h1 id="blog-title">Blogs</h1>
             <div className="blog_container">
 
                 <div className="each-blog">
-                    <Card sx={{ width: 600, height: 300 }}>
+                    <Card sx={{ width: 600, height: 300, color: "gray" }}>
                         <CardActionArea href="https://medium.com/@jeremiahmarcos27/why-learn-javascript-7c1c1e23b03" target="_blank" rel="noreferrer noopener">
                             <CardMedia
                                 component="img"

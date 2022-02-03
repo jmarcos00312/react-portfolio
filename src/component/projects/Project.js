@@ -39,6 +39,7 @@ function Project() {
                             <ul className="guide">
                                 <li>For the demo try <strong>LeBron James</strong> for favorite player</li>
                                 <li>For the demo try <strong>Los Angeles Lakers</strong> for favorite team</li>
+                                <strong>When you signup</strong>
                             </ul>
                         </Typography>
                     </CardContent>

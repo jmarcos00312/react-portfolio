@@ -18,11 +18,11 @@ const useStyles = makeStyles((theme) => ({
     },
     link: {
         textDecoration: "none",
-        color: "white",
-        fontSize: "20px",
-        marginLeft: theme.spacing(20),
+        color: "#F3F3FA",
+        fontSize: "25px",
+        marginLeft: theme.spacing(15),
         "&:hover": {
-            color: "yellow",
+            color: "#81879E",
             borderBottom: "1px solid white",
         },
     },
@@ -32,10 +32,10 @@ function Navbar() {
     const classes = useStyles();
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" style={{ background: "#222626" }}>
             <CssBaseline />
             <Toolbar>
-                <Typography variant="h4" className={classes.logo}>
+                <Typography variant="h3" className={classes.logo} style={{ color: "#F3F3FA" }}>
                     Jeremiah Marcos
                 </Typography>
                 <div className={classes.navlinks}>

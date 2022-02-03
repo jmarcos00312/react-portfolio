@@ -13,8 +13,15 @@
   font-size: 20px;
   cursor: pointer;
   gap: 400px;
+  transition: transform 0.5s;
+  margin: 0 auto;
 }
-
+.icons:hover {
+  transform: scale(1.2);
+}
+.form:hover {
+  transform: scale(1.2);
+}
 .form {
   background-color: lightblue;
   display: flex;
@@ -23,6 +30,8 @@
   padding: 50px;
   margin-bottom: 40px;
   border-radius: 20px;
+  transition: transform 0.5s;
+  margin: 0 auto;
 }
 
 label {

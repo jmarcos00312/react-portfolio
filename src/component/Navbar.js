@@ -32,7 +32,7 @@ function Navbar() {
     const classes = useStyles();
 
     return (
-        <AppBar position="static" style={{ background: "#222626" }}>
+        <AppBar position="static" style={{ background: "#222626" }} className="media">
             <CssBaseline />
             <Toolbar>
                 <Typography variant="h3" className={classes.logo} style={{ color: "#F3F3FA" }}>

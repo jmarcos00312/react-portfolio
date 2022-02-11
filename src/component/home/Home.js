@@ -47,7 +47,7 @@ function Home() {
                 </div>
                 <div className="aboutMe">
                     <p className="about">My name is <strong id="important">Jeremiah Marcos</strong> and I am located in <strong id="important">Austin, Texas</strong>.
-                        Before diciding to become a software developer,
+                        Before deciding to become a software developer,
                         I was working as a dialysis technician for <strong id="important">Baylor Scott and White</strong>. I was also going to school
                         to be a nurse. I decided to switch my major to <strong id="important">Computer Science</strong>. After one semester, I started
                         looking at other options and that's when I learned about Software Engineer coding boot-camps.

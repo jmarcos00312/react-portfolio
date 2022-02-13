@@ -131,9 +131,14 @@
     display: flex;
     flex-direction: column;
   }
-.div-skills {
-  display: flex;
-  flex-direction: column;
+  .div-skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-header {
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
   }
 }
 
@@ -142,12 +147,23 @@
     display: flex;
     flex-direction: column;
   }
-.div-skills {
-  display: flex;
-  flex-direction: column;
+  .div-skills {
+    display: flex;
+    flex-direction: column;
   }
+    .home-header {
+
+      background-color: #98989C
+    }
 
   .certification {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .profilePic {
+    padding: 20px;
+    margin: 5px;
   }
 }

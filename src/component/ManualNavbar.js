@@ -57,6 +57,12 @@ align-items: center;
         display: flex;
         flex-direction: column;
         height: 95px;
+        font-size: 17px;
+    }
+        @media (max-width: 1200px) {
+        display: flex;
+        height: 95px;
+        font-size: 20px;
     }
 
 `
@@ -69,6 +75,10 @@ align-items: center;
        color: "#81879E";
        border-bottom: "1px solid white";
     };
+        @media (max-width: 420px) {
+        font-size: 17px;
+        gap: 10px;
+    }
 
 `
 const myNameStyle = styled.h1`

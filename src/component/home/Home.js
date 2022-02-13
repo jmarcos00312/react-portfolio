@@ -20,9 +20,6 @@ import TypeAnimation from 'react-type-animation';
 function Home() {
     return (
         <div className="home-container">
-            {/* header material ui */}
-            <div></div>
-
             <header className="home-header">
                 <h1 id="job-title">Software Developer</h1>
                 <div>

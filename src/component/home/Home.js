@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import './home.scss'
+import './home.css'
 import certifications from '../../imgs/Certification of completion.png'
 import { SiRuby } from 'react-icons/si'
 import { GrReactjs } from 'react-icons/gr'

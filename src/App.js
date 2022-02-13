@@ -1,7 +1,7 @@
 
 import './App.css';
 import { Routes, Route } from "react-router-dom"
-import Navbar from './component/Navbar.js'
+import ManualNavbar from './component/ManualNavbar.js'
 import Home from './component/home/Home.js'
 import Project from './component/projects/Project.js'
 import Blogs from './component/blogs/Blogs'
@@ -14,7 +14,8 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar />
+      <ManualNavbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/projects" element={<Project />} />

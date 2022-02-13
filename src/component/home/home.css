@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: rgb(19, 19, 19);
-  // background-image: linear-gradient(147deg, #1f1f1f 0%, #46c8f5 74%);
 }
 
 .home-header {
@@ -55,7 +54,6 @@
   padding-bottom: 50px;
   margin: 0 50px;
   background-color: #222626;
-  // background-image: linear-gradient(315deg, #ffffff 0%, #1e1f1f 74%);
 }
 
 .profilePic {
@@ -114,6 +112,9 @@
   margin: 20px auto;
   border-radius: 20px;
 }
+.about {
+  line-height: 1.6;
+}
 
 #important {
   font-size: 30px;
@@ -123,4 +124,10 @@
 
 .certification {
   text-align: center;
+}
+
+@media all and (max-width: 500px) {
+  .home-container {
+    /* background-color: white; */
+  }
 }

@@ -7,6 +7,10 @@ import {
     makeStyles,
 } from "@material-ui/core";
 import { Link } from "react-router-dom"
+
+
+
+
 const useStyles = makeStyles((theme) => ({
     navlinks: {
         marginLeft: theme.spacing(10),
@@ -15,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
     logo: {
         flexGrow: "1",
         cursor: "pointer",
-    },
+    }
+    ,
     link: {
         textDecoration: "none",
         color: "#F3F3FA",
@@ -50,6 +55,9 @@ function Navbar() {
                     </Link>
                     <Link to="/contact" className={classes.link}>
                         Contact
+                    </Link>
+                    <Link to="/" className={classes.link} onClick={() => window.open("https://drive.google.com/file/d/15l4GpeZNiYdRH_vjT1VHiN98S0VKNvVr/view", "_blank")}>
+                        Resume
                     </Link>
                 </div>
             </Toolbar>

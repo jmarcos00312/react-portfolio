@@ -8,8 +8,8 @@ import './manualNav.css';
 function ManualNavbar() {
 
     return (
-        <NavbarContainer position="static" style={{ background: "#222626" }}>
-            <myNameStyle style={{ background: "#222626" }}>Jeremiah Marcos</myNameStyle>
+        <NavbarContainer position="static">
+            <h1 style={{ background: "#222626", fontSize: "20px", margin: "0" }}>Jeremiah Marcos</h1>
             <ButtonContainer>
                 <NavLink to="/" className='home' style={{ color: "#F3F3FA" }}>
                     <p>
@@ -45,6 +45,7 @@ function ManualNavbar() {
 export default ManualNavbar
 
 const NavbarContainer = styled.nav`
+background-color: #222626;
 width: 100%;
 height: 80px;
 color: White;
@@ -57,6 +58,15 @@ align-items: center;
         display: flex;
         flex-direction: column;
         height: 95px;
+        font-size: 17px;
+         width:100%;
+    }
+        @media (max-width: 1200px) {
+
+        display: flex;
+        height: 95px;
+        font-size: 20px;
+        
     }
 
 `
@@ -69,6 +79,13 @@ align-items: center;
        color: "#81879E";
        border-bottom: "1px solid white";
     };
+    @media (max-width: 420px) {
+        font-size: 17px;
+        gap: 10px;
+    };
+    @media (max-width: 1200px) {
+        margin-left:50px;
+    }
 
 `
 const myNameStyle = styled.h1`

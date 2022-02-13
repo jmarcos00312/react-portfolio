@@ -1,6 +1,4 @@
 import React from 'react'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import './home.css'
 import certifications from '../../imgs/Certification of completion.png'
 import { SiRuby } from 'react-icons/si'
@@ -11,7 +9,6 @@ import { AiOutlineConsoleSql } from 'react-icons/ai'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { IoLogoJavascript } from 'react-icons/io'
 import { DiGit } from 'react-icons/di'
-import { MdComputer } from 'react-icons/md'
 import TypeAnimation from 'react-type-animation';
 
 
@@ -20,16 +17,13 @@ import TypeAnimation from 'react-type-animation';
 function Home() {
     return (
         <div className="home-container">
-            {/* header material ui */}
-            <div></div>
-
-            <header className="home-header">
+            {/* <header className="home-header">
                 <h1 id="job-title">Software Developer</h1>
                 <div>
                     <LinkedInIcon fontSize="2px" color="primary" onClick={() => window.open("https://www.linkedin.com/in/jeremiahmarcos/", "_blank")} />
                     <GitHubIcon fontSize="2px" color="black" onClick={() => window.open("https://github.com/jmarcos00312", "_blank")} />
                 </div>
-            </header>
+            </header> */}
 
             {/* container material ui */}
             <section>
@@ -56,7 +50,7 @@ function Home() {
                     </p>
                 </div>
                 <div className="skills-container">
-                    <h1 id="skills"> <MdComputer /> Skills <MdComputer /></h1>
+                    <h1 id="skills">  Skills </h1>
                     <div className="div-skills">
                         <h3> <GrReactjs />React</h3>
                         <h3> <SiRuby /> Ruby on Rails</h3>

@@ -9,7 +9,7 @@ function ManualNavbar() {
 
     return (
         <NavbarContainer position="static" style={{ background: "#222626" }}>
-            <h1>Jeremiah Marcos</h1>
+            <myNameStyle style={{ background: "#222626" }}>Jeremiah Marcos</myNameStyle>
             <ButtonContainer>
                 <NavLink to="/" className='home' style={{ color: "#F3F3FA" }}>
                     <p>
@@ -40,10 +40,6 @@ function ManualNavbar() {
         </NavbarContainer>
     )
 
-
-
-
-
 }
 
 export default ManualNavbar
@@ -57,6 +53,12 @@ flex-direction: row;
 justify-content: space-between;
 font-size: 25px;
 align-items: center;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        height: 95px;
+    }
+
 `
 const ButtonContainer = styled.div`
 gap: 20px;
@@ -66,5 +68,11 @@ align-items: center;
 &:hover {
        color: "#81879E";
        border-bottom: "1px solid white";
+    };
+
+`
+const myNameStyle = styled.h1`
+    @media (max-width: 768px) {
+        display: none;
     }
 `

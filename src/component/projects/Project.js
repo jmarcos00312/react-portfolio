@@ -23,16 +23,17 @@ function Project() {
             <div className="react-on-rails-project">
                 <Card sx={{
                     margin: "20px",
-                    width: "100%",
                     cursor: "pointer",
                     alignSelf: "center",
-                }}>
+                    bgcolor: "#222626",
+                    color: "whitesmoke",
+                }} style={{display: "flex", alignItems: "center", flexDirection: "column", width: "auto",}}>
                     <img src={home} onClick={() => window.open("https://wba-jmarcos.herokuapp.com/", "_blank")} alt="WBA project" className="project-pictures" />
                     <CardContent>
                         <Typography gutterBottom variant="h2" component="div">
                             Web Basketball Association
                         </Typography>
-                        <Typography variant="body2" color="text.primary">
+                        <Typography variant="body2" color="text.primary" style={{ color: "whitesmoke" }}>
                             App lets users see NBA team and player statistics and achievements, so that they can keep up to date with their favorites.
                             <p>Coded an API that consists of 600 NBA players and 30 teams using Ruby on Rails.</p>
                             <p>Programmed backend using Ruby on Rails and React for the frontend and implemented various sorting algorithms.</p>

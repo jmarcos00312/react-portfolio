@@ -32,8 +32,8 @@ function ManualNavbar() {
                     </p>
                 </Link>
                 <Link to="/" className="resume" style={{ color: "#F3F3FA" }} onClick={() => window.open("https://drive.google.com/file/d/15l4GpeZNiYdRH_vjT1VHiN98S0VKNvVr/view", "_blank")}>
-                        Resume
-                    
+                    Resume
+
                 </Link>
             </ButtonContainer>
         </NavbarContainer>
@@ -54,9 +54,10 @@ justify-content: space-between;
 font-size: 25px;
 align-items: center;
     @media (max-width: 768px) {
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
-        height: 95px;
+        height: 105px;
         font-size: 17px;
          width:100%;
     }
@@ -74,7 +75,7 @@ gap: 20px;
 display: flex;
 color: "#F3F3FA";
 align-items: center;
-margin: 0 auto;
+
 &:hover {
        color: "#81879E";
        border-bottom: "1px solid white";
@@ -85,6 +86,9 @@ margin: 0 auto;
     };
     @media (max-width: 1200px) {
         margin-left:50px;
+    }
+     @media (max-width: 420px) {
+        margin: 0 auto;
     }
 
 `

@@ -15,7 +15,7 @@ function Blogs() {
             <div className="blog_container">
 
                 <div className="each-blog">
-                    <Card sx={{ width: 600, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
+                    <Card sx={{ width: 300, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
                         <CardActionArea href="https://medium.com/@jeremiahmarcos27/why-learn-javascript-7c1c1e23b03" target="_blank" rel="noreferrer noopener">
                             <CardMedia
                                 component="img"
@@ -37,7 +37,7 @@ function Blogs() {
                 </div>
 
                 <div className="each-blog">
-                    <Card sx={{ width: 600, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
+                    <Card sx={{ width: 300, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
                         <CardActionArea href="https://medium.com/@jeremiahmarcos27/first-two-weeks-in-react-29fd4fc80e6c" target="_blank" rel="noreferrer noopener">
                             <CardMedia
                                 component="img"
@@ -58,7 +58,7 @@ function Blogs() {
                 </div >
 
                 <div className="each-blog">
-                    <Card sx={{ width: 600, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
+                    <Card sx={{ width: 300, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -79,7 +79,7 @@ function Blogs() {
                 </div>
 
                 <div className="each-blog">
-                    <Card sx={{ width: 600, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
+                    <Card sx={{ width: 300, height: 300 }} style={{ backgroundColor: '#222626', color: "white" }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -87,7 +87,6 @@ function Blogs() {
                                 image="https://miro.medium.com/max/1050/0*QyZ3PlAP3G63R5XR"
                                 alt="green iguana"
                             />
-
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     Coding Survival Guide

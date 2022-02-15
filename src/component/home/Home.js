@@ -52,14 +52,14 @@ function Home() {
                 <div className="skills-container">
                     <h1 id="skills">  Skills </h1>
                     <div className="div-skills">
-                        <h3> <GrReactjs />React</h3>
-                        <h3> <SiRuby /> Ruby on Rails</h3>
-                        <h3> <DiPython /> Python</h3>
-                        <h3> <AiOutlineConsoleSql /> SQL</h3>
-                        <h3> <DiGit /> Git</h3>
-                        <h3> <IoLogoJavascript /> JavaScript</h3>
-                        <h3> <DiCss3 /> CSS</h3>
-                        <h3> <AiFillHtml5 /> HTML</h3>
+                        <h3 className="every-skills"> <GrReactjs />React</h3>
+                        <h3 className="every-skills"> <SiRuby /> Ruby on Rails</h3>
+                        <h3 className="every-skills"> <DiPython /> Python</h3>
+                        <h3 className="every-skills"> <AiOutlineConsoleSql /> SQL</h3>
+                        <h3 className="every-skills"> <DiGit /> Git</h3>
+                        <h3 className="every-skills"> <IoLogoJavascript /> JavaScript</h3>
+                        <h3 className="every-skills"> <DiCss3 /> CSS</h3>
+                        <h3 className="every-skills"> <AiFillHtml5 /> HTML</h3>
                     </div>
                 </div>
 
@@ -68,9 +68,9 @@ function Home() {
                     <img src={certifications} alt="certification" />
                 </div>
             </section>
-            <footer>
+            {/* <footer>
                 <h4>linkedin</h4>
-            </footer>
+            </footer> */}
 
         </div>
     )

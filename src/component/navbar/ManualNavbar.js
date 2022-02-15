@@ -32,9 +32,8 @@ function ManualNavbar() {
                     </p>
                 </Link>
                 <Link to="/" className="resume" style={{ color: "#F3F3FA" }} onClick={() => window.open("https://drive.google.com/file/d/15l4GpeZNiYdRH_vjT1VHiN98S0VKNvVr/view", "_blank")}>
-                    <a>
                         Resume
-                    </a>
+                    
                 </Link>
             </ButtonContainer>
         </NavbarContainer>

@@ -1,7 +1,7 @@
 
 import './App.css';
 import { Routes, Route } from "react-router-dom"
-import ManualNavbar from './component/ManualNavbar.js'
+import ManualNavbar from './component/navbar/ManualNavbar'
 import Home from './component/home/Home.js'
 import Project from './component/projects/Project.js'
 import Blogs from './component/blogs/Blogs'

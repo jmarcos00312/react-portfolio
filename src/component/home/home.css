@@ -200,6 +200,7 @@
     font-size: 15px;
     margin: 10px auto;
     padding-bottom: 0px;
+    margin-top: 10px;
   }
   #software-developer {
     font-size: 20px;
@@ -218,5 +219,10 @@
     font-size: 15px;
     color: #46c8f5;
     font-weight: bolder;
+  }
+
+  .profilePic {
+    padding-top: 80px;
+    height:20em
   }
 }

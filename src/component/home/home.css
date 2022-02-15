@@ -221,8 +221,18 @@
   .header-container {
     height: 500px;
   }
+  .aboutMe {
+    background-color: #222626;
+    color: white;
+    padding: 20px;
+    width: 85%;
+    text-align: center;
+    align-self: center;
+    margin: 20px auto;
+    border-radius: 20px;
+  }
   .about {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   #important {

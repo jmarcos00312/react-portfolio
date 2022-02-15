@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import './manualNav.css';
 
 
@@ -11,31 +11,31 @@ function ManualNavbar() {
         <NavbarContainer position="static">
             <h1 style={{ background: "#222626", fontSize: "20px", margin: "0" }}>Jeremiah Marcos</h1>
             <ButtonContainer>
-                <NavLink to="/" className='home' style={{ color: "#F3F3FA" }}>
+                <Link to="/" className='home' style={{ color: "#F3F3FA" }}>
                     <p>
                         Home
                     </p>
-                </NavLink>
-                <NavLink to="/projects" className="projects" style={{ color: "#F3F3FA" }}>
+                </Link>
+                <Link to="/projects" className="projects" style={{ color: "#F3F3FA" }}>
                     <p>
                         Projects
                     </p>
-                </NavLink>
-                <NavLink to="/blogs" className="blogs" style={{ color: "#F3F3FA" }}>
+                </Link>
+                <Link to="/blogs" className="blogs" style={{ color: "#F3F3FA" }}>
                     <p>
                         Blogs
                     </p>
-                </NavLink>
-                <NavLink to="/contact" className="contact" style={{ color: "#F3F3FA" }}>
+                </Link>
+                <Link to="/contact" className="contact" style={{ color: "#F3F3FA" }}>
                     <p>
                         Contact
                     </p>
-                </NavLink>
-                <NavLink to="/" className="resume" style={{ color: "#F3F3FA" }} onClick={() => window.open("https://drive.google.com/file/d/15l4GpeZNiYdRH_vjT1VHiN98S0VKNvVr/view", "_blank")}>
+                </Link>
+                <Link to="/" className="resume" style={{ color: "#F3F3FA" }} onClick={() => window.open("https://drive.google.com/file/d/15l4GpeZNiYdRH_vjT1VHiN98S0VKNvVr/view", "_blank")}>
                     <a>
                         Resume
                     </a>
-                </NavLink>
+                </Link>
             </ButtonContainer>
         </NavbarContainer>
     )

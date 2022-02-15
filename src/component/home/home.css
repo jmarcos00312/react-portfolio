@@ -223,8 +223,8 @@
   }
 
   .profilePic {
-    padding-top: 80px;
-    height:20em
+height: 20em;
+    margin-top: 25px;
   }
   #skills {
   font-size: 50px;

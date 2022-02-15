@@ -29,7 +29,7 @@ function Home() {
             <section>
                 <div className="header-container">
                     <img className="profilePic" src="https://jmarcos00312.github.io/cssPortfolio/pictures/sitting-smilling.jpg" alt="profile" />
-                    <h1 id="welcome">Welcome to my portfolio, I am a <strong id="software-developer">Software Developer</strong> <br /> with experience in
+                    <h1 id="welcome">Welcome to my portfolio, I am a <br  /> <strong id="software-developer">Software Developer</strong> <br /> with experience in
                         <TypeAnimation
                             cursor={false}
                             sequence={['React', 3000, 'Ruby on Rails', 3000, 'SQL', 3000, 'Python', 2000]}

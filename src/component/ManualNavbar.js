@@ -9,7 +9,7 @@ function ManualNavbar() {
 
     return (
         <NavbarContainer position="static">
-            <h1 style={{ background: "#222626", fontSize: "20px", margin: "0" }}>Jeremiah Marcos</h1>
+            <h1 style={{ background: "#222626", fontSize: "20px", margin: "0 10px" }}>Jeremiah Marcos</h1>
             <ButtonContainer>
                 <Link to="/" className='home' style={{ color: "#F3F3FA" }}>
                     <p>
@@ -75,6 +75,7 @@ gap: 20px;
 display: flex;
 color: "#F3F3FA";
 align-items: center;
+margin: 0 10px;
 &:hover {
        color: "#81879E";
        border-bottom: "1px solid white";
@@ -87,9 +88,4 @@ align-items: center;
         margin-left:50px;
     }
 
-`
-const myNameStyle = styled.h1`
-    @media (max-width: 768px) {
-        display: none;
-    }
 `

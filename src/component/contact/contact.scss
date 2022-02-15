@@ -54,5 +54,34 @@ input .form-name-email {
   align-self: center;
   border-radius: 10px;
 }
-@media all and (max-width: 500px) {
+@media (max-width: 420px) {
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 15px;
+    transition: transform 0.5s;
+    margin: 5em auto;
+  }
+
+  .form {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    padding: 0px;
+    margin: 2em auto;
+  }
+  textarea {
+    padding: 10px;
+    margin: 0 20px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 0 20px;
+  }
 }

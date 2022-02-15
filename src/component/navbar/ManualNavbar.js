@@ -9,7 +9,7 @@ function ManualNavbar() {
 
     return (
         <NavbarContainer position="static">
-            <h1 style={{ background: "#222626", fontSize: "20px" }}>Jeremiah Marcos</h1>
+            <h1 style={{ background: "#222626", fontSize: "20px", margin: 0}}>Jeremiah Marcos</h1>
             <ButtonContainer>
                 <Link to="/" className='home' style={{ color: "#F3F3FA" }}>
                     <p>
